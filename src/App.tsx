@@ -1,4 +1,4 @@
-import Avatar from "../assets/images/avatar-jessica.jpeg";
+import Avatar from "/assets/images/avatar-jessica.jpeg";
 
 function App() {
   return (
