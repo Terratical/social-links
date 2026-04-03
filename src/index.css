@@ -21,7 +21,7 @@
 
 @font-face {
   font-family: Inter;
-  src: url("../assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+  src: url("../assets/fonts/Inter-VariableFont_slnt-wght.ttf");
 }
 
 html {
@@ -68,4 +68,10 @@ body {
     color 20ms;
   background-color: var(--accent);
   color: var(--bg-card);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #social-links a {
+    transition-duration: 0.01ms;
+  }
 }
