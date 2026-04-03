@@ -18,51 +18,41 @@ function App() {
         <p className="mt-(--spacing-xl) text-base text-(--text-white)">
           <q>Front-end developer and avid reader.</q>
         </p>
-        <ul
+        <nav
           id="social-links"
           className="mt-(--spacing-xl) flex flex-col gap-(--spacing-lg)"
         >
-          <li>
-            <a
-              className="block rounded-lg bg-(--bg-btn) p-(--spacing-md) text-base font-bold"
-              href="https://github.com"
-            >
-              GitHub
-            </a>
-          </li>
-          <li>
-            <a
-              className="block rounded-lg bg-(--bg-btn) p-(--spacing-md) text-base font-bold"
-              href="https://frontendmentor.io"
-            >
-              Frontend Mentor
-            </a>
-          </li>
-          <li>
-            <a
-              className="block rounded-lg bg-(--bg-btn) p-(--spacing-md) text-base font-bold"
-              href="https://linkedin.com"
-            >
-              LinkedIn
-            </a>
-          </li>
-          <li>
-            <a
-              className="block rounded-lg bg-(--bg-btn) p-(--spacing-md) text-base font-bold"
-              href="https://twitter.com"
-            >
-              Twitter
-            </a>
-          </li>
-          <li>
-            <a
-              className="block rounded-lg bg-(--bg-btn) p-(--spacing-md) text-base font-bold"
-              href="https://instagram.com"
-            >
-              Instagram
-            </a>
-          </li>
-        </ul>
+          <a
+            className="block rounded-lg bg-(--bg-btn) p-(--spacing-md) text-base font-bold"
+            href="https://github.com"
+          >
+            GitHub
+          </a>
+          <a
+            className="block rounded-lg bg-(--bg-btn) p-(--spacing-md) text-base font-bold"
+            href="https://frontendmentor.io"
+          >
+            Frontend Mentor
+          </a>
+          <a
+            className="block rounded-lg bg-(--bg-btn) p-(--spacing-md) text-base font-bold"
+            href="https://linkedin.com"
+          >
+            LinkedIn
+          </a>
+          <a
+            className="block rounded-lg bg-(--bg-btn) p-(--spacing-md) text-base font-bold"
+            href="https://twitter.com"
+          >
+            Twitter
+          </a>
+          <a
+            className="block rounded-lg bg-(--bg-btn) p-(--spacing-md) text-base font-bold"
+            href="https://instagram.com"
+          >
+            Instagram
+          </a>
+        </nav>
       </article>
     </main>
   );
