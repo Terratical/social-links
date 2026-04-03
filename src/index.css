@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  --bg-page: #141414;
+  --bg-card: #1f1f1f;
+  --bg-btn: #333333;
+
+  --accent: #c4f82a;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 24px;
+  --spacing-2xl: 40px;
+
+  --text-height: 150%;
+  --text-letter-spacing: 0;
+  --text-white: white;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+html {
+  background-color: var(--bg-page);
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+.text-full-name {
+  letter-spacing: var(--text-letter-spacing);
+  line-height: var(--text-height);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--text-white);
+}
+
+.text-location {
+  letter-spacing: var(--text-letter-spacing);
+  line-height: var(--text-height);
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--accent);
+}
+
+.text-base {
+  letter-spacing: var(--text-letter-spacing);
+  line-height: var(--text-height);
+  font-size: 0.875rem;
+  color: var(--text-white);
+}
+
+#social-links a {
+  transition:
+    background-color 333ms ease-out,
+    color 333ms ease-out;
+  outline-color: var(--accent);
+}
+
+#social-links a:hover {
+  transition:
+    background-color 20ms,
+    color 20ms;
+  background-color: var(--accent);
+  color: var(--bg-card);
+}
